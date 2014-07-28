@@ -1,7 +1,7 @@
 Practica
 
 - Que permisologia tiene los siguientes archivos
-rwxrwx--- 77  
+rwxrwx--- 770  
 --------- 0
 rw-rw---- 660
 r-xr-xr-x 555
@@ -21,7 +21,7 @@ de un archivo llamado memoria.txt
   cat /proc/meminfo
 
 -Se requiere guardar toda la configuración de la versión del kernel en un archivo llamado kernel.txt
-   ps -aux
+   ps -aux | grep
 
 - Como matamos un proceso del computador    kill
 
@@ -29,16 +29,16 @@ de un archivo llamado memoria.txt
 
 - Como puedo visualizar las particiones del disco duro  (fdisk -l)  
 
-- Cree una carpeta con tu nombre 
-- Dentro de la carpeta, creamos tres archivos de nombre c1 c2 c3 
-- Guardamos en el c1 su nombre completo
-- Guardamos el c3 el correo electrónico
+- Cree una carpeta con tu nombre  mkdir luis 
+- Dentro de la carpeta, creamos tres archivos de nombre c1 c2 c3 touch ci touch c2 touch c2 
+- Guardamos en el c1 su nombre completo   echo c1  luisgarcia
+- Guardamos el c3 el correo electrónico   echo c3 lgarcia969@gmail.com
 - Describa a continuación la función de los siguientes directorios
 
-/bin   directorios
-/home/ directoria local o casa donde se guardan los arcivos principales
+/bin   archivos binarios
+/home/ directoria local o casa donde se guardan los archivos principales de usuario
 /media   directorios de dicscos extraibles
-/var  
-/	directorio raiz
-/sbin  
-/boot 
+/var  dispositivos variables
+/	directorio raiz de los archivos
+/sbin  archivos fuentes binarios
+/boot  arranque del sistema 
